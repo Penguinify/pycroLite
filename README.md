@@ -3,11 +3,16 @@ pycroLite.
      
 its a macro. what did you expect
      
-***
-     
-# Documentation
-
 ## Basic Syntax
+You start a program by stating the version.
+`PSCRIPT-VERSION,1.0`
+
+You can then start the macro with the Macro keyword.
+
+`PSCRIPT-VERSION,1.0`    
+`MACRO`    
+`*code*`
+
 Using commas you can separate arguments.
 
 `delay,1`
@@ -29,10 +34,11 @@ releases #
 prints # to console    
 `counter,[opt]`        
 prints amount of loops    
+`mousemove,x,y`        
+moves mouse x and y pixel     
+`mouseset,x,y`        
+sets x and y of mouse    
 
-***
-
-***
 
 ***
 
