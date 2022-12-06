@@ -1,0 +1,7 @@
+PSCRIPT-VERSION,1.0
+MACRO
+counter,runs
+press,space
+delay,1
+release,space
+delay,1
