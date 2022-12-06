@@ -83,7 +83,7 @@ def main():
     for c,i in enumerate(scripts) : print(f'({c + 1})  —  ' + i)
     script = scripts[int(input('»>»')) - 1]
 
-    with open(script) as reader:
+    with open('scripts/' + script) as reader:
         lines = reader.readlines()
     
     lines = [line.replace('\n', '') for line in lines]
